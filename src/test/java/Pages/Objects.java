@@ -71,20 +71,7 @@ public class Objects extends Parent {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
     public WebElement getWebElement(String strButton){
         switch (strButton)
         {
