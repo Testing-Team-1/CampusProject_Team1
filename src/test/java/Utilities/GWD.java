@@ -50,8 +50,6 @@ public class GWD {
                     } else {
                         threadDriver.set(new ChromeDriver());
                     }
-
-                    break;
             }
         }
         threadDriver.get().manage().window().maximize();
