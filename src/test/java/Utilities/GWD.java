@@ -23,7 +23,6 @@ public class GWD {
 
         Logger logger = Logger.getLogger("");
         logger.setLevel(Level.SEVERE);
-        System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 
         if (threadBrowserName.get() == null)
             threadBrowserName.set("chrome");
